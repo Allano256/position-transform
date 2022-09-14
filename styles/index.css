@@ -267,6 +267,11 @@ padding-top: 250px;
         margin-left: 40px;
     }
 
+
+    ul {
+        list-style-image: url(/images/tick.png);
+    }
+    /*complete the list items*/
     
 
 
