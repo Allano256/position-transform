@@ -217,6 +217,56 @@ padding-top: 250px;
         border-radius: 4px;
         border:none;
     }
+    .container-2 {
+        display: flex;
+        margin-top: 100px;
+    }
+    .semi-container {
+        margin-left: 100px;
+        z-index: auto;
+    }
+   .container-3{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 144px;
+    }
+    .unique {
+        color: #2F281E;
+        font-family: "poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        
+    }
+    .paragraph  {
+        color: #2F281E;
+        font-family: "poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 40px;
+        
+    }
+    .para  {
+        color: #2F281E;
+        font-family: "poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 40px;
+        
+    }
+    .list-items {
+        display:inline;
+        margin-left: 40px;
+    }
+
     
 
 
