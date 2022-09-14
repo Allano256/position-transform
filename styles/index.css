@@ -140,24 +140,30 @@ p {
     background-repeat: no-repeat;
     position: relative;
 
+
 }
-.item-1  {
+.item-2  {
     position: absolute;
     width: 605px;
     height: 496px;
+    opacity: 1;
 
 }
-.item-2{ 
+.item-1{ 
     
     background-color: #FFE5D2;
     transform:matrix(-1. 0, 0, 1, 0,0);
     width: 467px;
     height: 438px;
-    transform: translatex(0px 3px);
+    /*transform: translatex(0px 3px);*/
     position: absolute;
     left: 30px;
-    z-index: -0.3;
+    right: 0%;
+    opacity:0.2;
+
 }
+/*Need to complete the opacity feature on image */
+
 
 
     
