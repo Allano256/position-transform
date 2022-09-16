@@ -6,16 +6,16 @@
     display: flex;
     justify-content: space-between;
 }
-.navigation {
-    color:#2F281E ;
+.navigation ul {
     display: flex;
+    color:#2F281E ;
     position: center;
     font-family: "poppins";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    display: flex;
+    
 
 }
 .button  {
@@ -78,11 +78,12 @@ a {
     
     }
 .logo{
+    display: flex;
     justify-content: flex-start;
     width: 30.16px;
     height: 30px;
     margin-left: 143.92px;
-    align-self: center;
+    align-items: center;
 }
 h1 {
     color:#173A56 ;
@@ -225,7 +226,7 @@ padding-top: 250px;
         margin-left: 100px;
         z-index: auto;
     }
-   .container-3{
+   .container-3 {
         display: flex;
         margin-top: 50px;
         margin-left: 144px;
@@ -272,20 +273,27 @@ padding-top: 250px;
         line-height: 26px;
     }
 
-   /* ul {
-        display:inline;
-        margin-left: px;
-        margin-right:50px; 
-    }*/
-
-
-    /*ul {
-        list-style-image: url(/images/tick.png);
+    ul {
+        display: block;
+        
     }
+    .container-3 ul li {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .container-3 ul li img {
+        margin-right:20px;
+    }
+    .paragraphs.no-margin {
+        margin:0;
+    }
+
     .semi-container-2 {
         margin-left: 100px;
     
-    }*/
+    }
     .container-4 {
         display: inline-flex;
        /* margin-bottom: 500px;*/
